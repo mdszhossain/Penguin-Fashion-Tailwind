@@ -1,0 +1,23 @@
+:root {
+    --default-black: #3E3E3E;
+    --default-white: white;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.default-font {
+    font-family: "Roboto", serif;
+}
+.heading-font {
+    font-family: "Bebas Neue", serif;
+}
+.def-text-col {
+    color: var(--default-black);
+}
+.def-text-white {
+    color: var(--default-white);
+}
+.banner {
+    height: 700px;
+}
+.banner-description {
+    width: 80%;
+}
